@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гайд по строительству базы - Гайд по выживанию в Devast.io</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><i class="fas fa-radiation"></i> Гайд по Devast.io</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="beginners-guide.html">Гайд для новичков</a></li>
+                <li><a href="tutorials.html">Видео уроки</a></li>
+                <li><a href="survival-tips.html">Советы по выживанию</a></li>
+                <li><a href="crafting-guide.html">Гайд по крафту</a></li>
+                <li><a href="base-building.html" class="active">Строительство базы</a></li>
+                <li><a href="combat-guide.html">Боевой гайд</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1><i class="fas fa-home"></i> Гайд по строительству базы</h1>
+            <p>Освойте строительство базы, выбор локации и продвинутые оборонительные стратегии</p>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <div class="building-section">
+                <h2><i class="fas fa-map-marker-alt"></i> Location Selection</h2>
+                <p>Choosing the right location is crucial for your base's survival and your resource accessibility.</p>
+                
+                <div class="location-grid">
+                    <div class="location-card optimal">
+                        <div class="location-header">
+                            <h3>Optimal Locations</h3>
+                            <span class="location-badge good">RECOMMENDED</span>
+                        </div>
+                        <div class="location-features">
+                            <h4><i class="fas fa-home"></i> Near Multiple Houses</h4>
+                            <p>Easy access to electronics and sheet metal for advanced crafting.</p>
+                            
+                            <h4><i class="fas fa-border-all"></i> Map Border Placement</h4>
+                            <p>One side pre-protected by map boundary, reducing defensive requirements.</p>
+                            
+                            <h4><i class="fas fa-cubes"></i> Resource Proximity</h4>
+                            <p>Close to wood, stone, and iron sources for efficient gathering.</p>
+                            
+                            <h4><i class="fas fa-tint"></i> Water Access</h4>
+                            <p>Near rivers or other water sources for hydration needs.</p>
+                        </div>
+                    </div>
+
+                    <div class="location-card avoid">
+                        <div class="location-header">
+                            <h3>Locations to Avoid</h3>
+                            <span class="location-badge bad">AVOID</span>
+                        </div>
+                        <div class="location-features">
+                            <h4><i class="fas fa-times"></i> Inside Houses</h4>
+                            <p>Building inside houses angers other players and makes you a target for raids.</p>
+                            
+                            <h4><i class="fas fa-radiation"></i> High Radiation Areas</h4>
+                            <p>Constant health drain without proper protection gear.</p>
+                            
+                            <h4><i class="fas fa-route"></i> High Traffic Areas</h4>
+                            <p>Areas with frequent player movement increase raid risk.</p>
+                            
+                            <h4><i class="fas fa-mountain"></i> Resource-Poor Zones</h4>
+                            <p>Areas far from essential resources slow down progression.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="building-section">
+                <h2><i class="fas fa-hammer"></i> Essential Base Components</h2>
+                <p>Every successful base needs these core components for survival and progression.</p>
+                
+                <div class="components-grid">
+                    <div class="component-card essential">
+                        <h3><i class="fas fa-shield-alt"></i> Stone Walls</h3>
+                        <div class="component-info">
+                            <p><strong>Critical:</strong> Always use stone walls for defense. Wood walls are too weak against ghouls!</p>
+                            <h4>Why Stone Walls:</h4>
+                            <ul>
+                                <li>Higher durability against ghoul attacks</li>
+                                <li>Better protection against player raids</li>
+                                <li>Longer lasting in harsh conditions</li>
+                                <li>Required for serious base defense</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="component-card essential">
+                        <h3><i class="fas fa-door-open"></i> Multiple Entrances</h3>
+                        <div class="component-info">
+                            <p><strong>Safety:</strong> Always have multiple entrances to prevent being trapped during raids.</p>
+                            <h4>Entrance Strategy:</h4>
+                            <ul>
+                                <li>Build at least 2-3 different entrances</li>
+                                <li>Place them on different sides of your base</li>
+                                <li>Include hidden or secondary exits</li>
+                                <li>Consider emergency escape routes</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="component-card essential">
+                        <h3><i class="fas fa-cogs"></i> Crafting Stations</h3>
+                        <div class="component-info">
+                            <p><strong>Required:</strong> Essential crafting stations for progression and survival.</p>
+                            <h4>Must-Have Stations:</h4>
+                            <ul>
+                                <li><strong>Workbench:</strong> Basic crafting (build multiple for teams)</li>
+                                <li><strong>Smelter:</strong> Metal processing and alloys</li>
+                                <li><strong>Research Bench:</strong> Technology advancement</li>
+                                <li><strong>Tesla Bench:</strong> End-game equipment crafting</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="component-card essential">
+                        <h3><i class="fas fa-box"></i> Storage System</h3>
+                        <div class="component-info">
+                            <p><strong>Organization:</strong> Multiple chests for organized resource storage.</p>
+                            <h4>Storage Tips:</h4>
+                            <ul>
+                                <li>Separate chests by material type</li>
+                                <li>Label storage areas mentally</li>
+                                <li>Keep emergency supplies in secure locations</li>
+                                <li>Protect valuable storage from raids</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="component-card essential">
+                        <h3><i class="fas fa-seedling"></i> Small Farm</h3>
+                        <div class="component-info">
+                            <p><strong>Sustainability:</strong> Minimum 3x3 farm for food self-sufficiency.</p>
+                            <h4>Farming Benefits:</h4>
+                            <ul>
+                                <li>Reliable food source independent of hunting</li>
+                                <li>Reduces need for dangerous foraging</li>
+                                <li>Provides steady nutrition for health maintenance</li>
+                                <li>Can be expanded as base grows</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="building-section">
+                <h2><i class="fas fa-robot"></i> Advanced Defense Strategies</h2>
+                <p>Master the most effective defensive techniques to protect your base from ghouls and players.</p>
+                
+                <div class="defense-strategy">
+                    <h3><i class="fas fa-star"></i> Repair Bot Strategy (Ultimate Defense)</h3>
+                    <div class="strategy-details">
+                        <p>The most effective base defense technique using automated repair bots:</p>
+                        
+                        <div class="strategy-steps">
+                            <h4>Implementation Steps:</h4>
+                            <ol>
+                                <li><strong>Strategic Placement:</strong> Place repair bots along your wall perimeter</li>
+                                <li><strong>Protection:</strong> Seal each repair bot with wooden slabs to protect them from attacks</li>
+                                <li><strong>Coverage Ratio:</strong> Maintain minimum 2 repair bots per 3 walls for effective ghoul protection</li>
+                                <li><strong>Layered Defense:</strong> Surround your base with multiple wall layers</li>
+                                <li><strong>Backup Systems:</strong> Have spare repair bots ready for replacement</li>
+                            </ol>
+                        </div>
+                        
+                        <div class="strategy-benefits">
+                            <h4>Why This Works:</h4>
+                            <ul>
+                                <li><strong>Automated Repair:</strong> Walls are constantly maintained without player intervention</li>
+                                <li><strong>Ghoul Protection:</strong> Effectively counters even large ghoul waves</li>
+                                <li><strong>24/7 Defense:</strong> Works even when you're offline or away</li>
+                                <li><strong>Cost Effective:</strong> Expensive initially but saves resources long-term</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="strategy-warning">
+                            <strong>Important:</strong> Repair bots are expensive to craft but provide the best automated defense available. Protect them at all costs!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="defense-techniques">
+                    <h3>Additional Defense Techniques</h3>
+                    <div class="techniques-grid">
+                        <div class="technique-card">
+                            <h4><i class="fas fa-layer-group"></i> Wall Layering</h4>
+                            <p>Build multiple layers of walls around your base for increased protection.</p>
+                            <ul>
+                                <li>Inner walls protect core structures</li>
+                                <li>Outer walls absorb initial damage</li>
+                                <li>Creates delay for defensive response</li>
+                                <li>Forces attackers to use more resources</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="technique-card">
+                            <h4><i class="fas fa-eye"></i> Watchtowers</h4>
+                            <p>Build elevated positions for better visibility and defensive advantage.</p>
+                            <ul>
+                                <li>Early threat detection</li>
+                                <li>Better shooting angles</li>
+                                <li>Safe zones during attacks</li>
+                                <li>Communication with team members</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="technique-card">
+                            <h4><i class="fas fa-route"></i> Maze Layouts</h4>
+                            <p>Design confusing pathways to slow down attackers and ghouls.</p>
+                            <ul>
+                                <li>Forces enemies to take longer routes</li>
+                                <li>Creates ambush opportunities</li>
+                                <li>Confuses raiding players</li>
+                                <li>Provides escape route advantages</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="technique-card">
+                            <h4><i class="fas fa-bomb"></i> Trap Systems</h4>
+                            <p>Set up defensive traps around your base perimeter.</p>
+                            <ul>
+                                <li>Damage unsuspecting attackers</li>
+                                <li>Slow down ghoul advances</li>
+                                <li>Psychological deterrent effect</li>
+                                <li>Area denial tactics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="building-section">
+                <h2><i class="fas fa-chart-line"></i> Base Progression Stages</h2>
+                <p>Understand how to evolve your base from a simple shelter to a fortified stronghold.</p>
+                
+                <div class="progression-stages">
+                    <div class="stage-card">
+                        <div class="stage-header">
+                            <h3>Stage 1: Emergency Shelter</h3>
+                            <span class="stage-badge early">EARLY GAME</span>
+                        </div>
+                        <div class="stage-content">
+                            <h4>Priority Items:</h4>
+                            <ul>
+                                <li>Basic stone walls for protection</li>
+                                <li>Single entrance with door</li>
+                                <li>Campfire for cooking and warmth</li>
+                                <li>Workbench for basic crafting</li>
+                                <li>Storage chest for essential items</li>
+                            </ul>
+                            <p><strong>Goal:</strong> Survive the first few days and establish basic safety.</p>
+                        </div>
+                    </div>
+
+                    <div class="stage-card">
+                        <div class="stage-header">
+                            <h3>Stage 2: Functional Base</h3>
+                            <span class="stage-badge mid">MID GAME</span>
+                        </div>
+                        <div class="stage-content">
+                            <h4>Expansion Items:</h4>
+                            <ul>
+                                <li>Multiple stone wall layers</li>
+                                <li>2-3 entrances for safety</li>
+                                <li>Smelter for metal processing</li>
+                                <li>Multiple storage chests</li>
+                                <li>Small farm (3x3 minimum)</li>
+                                <li>Research bench for advancement</li>
+                            </ul>
+                            <p><strong>Goal:</strong> Self-sufficiency and preparation for ghoul waves.</p>
+                        </div>
+                    </div>
+
+                    <div class="stage-card">
+                        <div class="stage-header">
+                            <h3>Stage 3: Fortified Stronghold</h3>
+                            <span class="stage-badge late">LATE GAME</span>
+                        </div>
+                        <div class="stage-content">
+                            <h4>Advanced Features:</h4>
+                            <ul>
+                                <li>Repair bot defensive network</li>
+                                <li>Tesla bench for end-game gear</li>
+                                <li>Extensive wall layering</li>
+                                <li>Watchtowers and defensive positions</li>
+                                <li>Automated feeder system</li>
+                                <li>Emergency escape routes</li>
+                            </ul>
+                            <p><strong>Goal:</strong> Withstand any threat and dominate the area.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="building-section">
+                <h2><i class="fas fa-users"></i> Team Base Building</h2>
+                <p>Special considerations for building bases with teammates.</p>
+                
+                <div class="team-strategies">
+                    <div class="team-card">
+                        <h3><i class="fas fa-project-diagram"></i> Connected Bases</h3>
+                        <div class="team-info">
+                            <p>Build individual bases connected by secure tunnels or walls.</p>
+                            <h4>Benefits:</h4>
+                            <ul>
+                                <li>Individual player autonomy</li>
+                                <li>Shared defense network</li>
+                                <li>Resource sharing capabilities</li>
+                                <li>Redundancy if one base is compromised</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <h3><i class="fas fa-building"></i> Compound Design</h3>
+                        <div class="team-info">
+                            <p>Single large base with multiple sections for different team members.</p>
+                            <h4>Features:</h4>
+                            <ul>
+                                <li>Central crafting area</li>
+                                <li>Individual living quarters</li>
+                                <li>Shared storage systems</li>
+                                <li>Coordinated defense structure</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <h3><i class="fas fa-tasks"></i> Role Specialization</h3>
+                        <div class="team-info">
+                            <p>Assign specific base-building roles to team members.</p>
+                            <h4>Roles:</h4>
+                            <ul>
+                                <li><strong>Architect:</strong> Plans layout and design</li>
+                                <li><strong>Builder:</strong> Constructs walls and structures</li>
+                                <li><strong>Defender:</strong> Manages defensive systems</li>
+                                <li><strong>Supplier:</strong> Gathers building materials</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="building-section">
+                <h2><i class="fas fa-exclamation-triangle"></i> Common Building Mistakes</h2>
+                <div class="mistakes-grid">
+                    <div class="mistake-card">
+                        <h3><i class="fas fa-times"></i> Using Wood Walls</h3>
+                        <p>Wood walls are too weak against ghouls and experienced players. Always use stone for defense.</p>
+                    </div>
+                    <div class="mistake-card">
+                        <h3><i class="fas fa-times"></i> Single Entrance</h3>
+                        <p>Having only one entrance makes you vulnerable to being trapped during raids or attacks.</p>
+                    </div>
+                    <div class="mistake-card">
+                        <h3><i class="fas fa-times"></i> Poor Location Choice</h3>
+                        <p>Building in high-traffic areas or inside houses attracts unwanted attention and conflict.</p>
+                    </div>
+                    <div class="mistake-card">
+                        <h3><i class="fas fa-times"></i> Inadequate Storage</h3>
+                        <p>Not having enough organized storage leads to resource waste and inefficient crafting.</p>
+                    </div>
+                    <div class="mistake-card">
+                        <h3><i class="fas fa-times"></i> No Defensive Planning</h3>
+                        <p>Building without considering ghoul waves and player attacks leads to base destruction.</p>
+                    </div>
+                    <div class="mistake-card">
+                        <h3><i class="fas fa-times"></i> Ignoring Expansion</h3>
+                        <p>Not planning for base growth limits your ability to progress and adapt to threats.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guide-navigation">
+                <a href="combat-guide.html" class="btn btn-primary">Next: Combat Guide</a>
+                <a href="crafting-guide.html" class="btn btn-secondary">Previous: Crafting Guide</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-radiation"></i> Devast.io Guide</h3>
+                    <p>Your ultimate resource for mastering the post-apocalyptic survival game.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="beginners-guide.html">Beginner's Guide</a></li>
+                        <li><a href="tutorials.html">Video Tutorials</a></li>
+                        <li><a href="survival-tips.html">Survival Tips</a></li>
+                        <li><a href="crafting-guide.html">Crafting Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Game Resources</h4>
+                    <ul>
+                        <li><a href="https://devast.io/" target="_blank">Official Game</a></li>
+                        <li><a href="https://devastio.fandom.com/wiki/Devast.io_Wiki" target="_blank">Devast.io Wiki</a></li>
+                        <li><a href="base-building.html">Base Building</a></li>
+                        <li><a href="combat-guide.html">Combat Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <p>This is a fan-made guide website. Devast.io is owned by its respective developers.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Devast.io Survival Guide. Fan-made educational resource.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>

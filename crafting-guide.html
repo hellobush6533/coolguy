@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гайд по крафту - Гайд по выживанию в Devast.io</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><i class="fas fa-radiation"></i> Гайд по Devast.io</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="beginners-guide.html">Гайд для новичков</a></li>
+                <li><a href="tutorials.html">Видео уроки</a></li>
+                <li><a href="survival-tips.html">Советы по выживанию</a></li>
+                <li><a href="crafting-guide.html" class="active">Гайд по крафту</a></li>
+                <li><a href="base-building.html">Строительство базы</a></li>
+                <li><a href="combat-guide.html">Боевой гайд</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1><i class="fas fa-hammer"></i> Гайд по крафту</h1>
+            <p>Освойте полную системы крафта от базовых инструментов до продвинутого оборудования</p>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <div class="crafting-section">
+                <h2><i class="fas fa-star"></i> Essential Early Game Crafts</h2>
+                <p>These are the critical items you need to craft immediately upon spawning to ensure survival.</p>
+                
+                <div class="recipe-grid">
+                    <div class="recipe-card essential">
+                        <div class="recipe-header">
+                            <h3>Hatchet</h3>
+                            <span class="priority-badge critical">CRITICAL</span>
+                        </div>
+                        <div class="recipe-ingredients">
+                            <h4>Recipe:</h4>
+                            <ul>
+                                <li>2x Stone (your starting stones!)</li>
+                                <li>1x Wood</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-description">
+                            <p><strong>Purpose:</strong> Essential wood gathering tool. Makes wood collection 3x more efficient than using bare hands.</p>
+                            <p><strong>Critical Note:</strong> You spawn with exactly 2 stones - never drop these!</p>
+                        </div>
+                    </div>
+
+                    <div class="recipe-card essential">
+                        <div class="recipe-header">
+                            <h3>Stone Pickaxe</h3>
+                            <span class="priority-badge high">HIGH</span>
+                        </div>
+                        <div class="recipe-ingredients">
+                            <h4>Recipe:</h4>
+                            <ul>
+                                <li>1x Stone</li>
+                                <li>1x Wood</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-description">
+                            <p><strong>Purpose:</strong> Mining tool for stone and iron ore. Also serves as a decent melee weapon.</p>
+                            <p><strong>Tip:</strong> Essential for gathering the stone and iron needed for advanced crafting.</p>
+                        </div>
+                    </div>
+
+                    <div class="recipe-card essential">
+                        <div class="recipe-header">
+                            <h3>Workbench</h3>
+                            <span class="priority-badge high">HIGH</span>
+                        </div>
+                        <div class="recipe-ingredients">
+                            <h4>Recipe:</h4>
+                            <ul>
+                                <li>4x Wood</li>
+                                <li>2x Stone</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-description">
+                            <p><strong>Purpose:</strong> Unlocks advanced crafting recipes and allows creation of better tools.</p>
+                            <p><strong>Strategy:</strong> Build multiple workbenches for team play to speed up crafting.</p>
+                        </div>
+                    </div>
+
+                    <div class="recipe-card essential">
+                        <div class="recipe-header">
+                            <h3>Campfire</h3>
+                            <span class="priority-badge high">HIGH</span>
+                        </div>
+                        <div class="recipe-ingredients">
+                            <h4>Recipe:</h4>
+                            <ul>
+                                <li>3x Wood</li>
+                                <li>1x Stone</li>
+                            </ul>
+                        </div>
+                        <div class="recipe-description">
+                            <p><strong>Purpose:</strong> Cook food and provide warmth during cold nights.</p>
+                            <p><strong>Critical:</strong> Essential for surviving temperature drops and making food safe to eat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="crafting-section">
+                <h2><i class="fas fa-cogs"></i> Advanced Crafting Stations</h2>
+                <p>These stations unlock higher-tier crafting recipes and are essential for progression.</p>
+                
+                <div class="station-grid">
+                    <div class="station-card">
+                        <h3><i class="fas fa-fire"></i> Smelter</h3>
+                        <div class="station-info">
+                            <h4>Purpose:</h4>
+                            <p>Smelt raw iron ore into usable metal for advanced tools and weapons.</p>
+                            <h4>Requirements:</h4>
+                            <ul>
+                                <li>Iron ore (mined with pickaxe)</li>
+                                <li>Fuel (wood or coal)</li>
+                            </ul>
+                            <h4>Unlocks:</h4>
+                            <ul>
+                                <li>Metal tools (axe, pickaxe)</li>
+                                <li>Metal weapons</li>
+                                <li>Alloys (iron + coal)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="station-card">
+                        <h3><i class="fas fa-microscope"></i> Research Bench</h3>
+                        <div class="station-info">
+                            <h4>Purpose:</h4>
+                            <p>Unlock higher-tier recipes and advanced technologies.</p>
+                            <h4>Requirements:</h4>
+                            <ul>
+                                <li>Electronics (from computers/TVs)</li>
+                                <li>Various materials for research</li>
+                            </ul>
+                            <h4>Unlocks:</h4>
+                            <ul>
+                                <li>Advanced weapons</li>
+                                <li>Protection gear</li>
+                                <li>Tesla technology</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="station-card">
+                        <h3><i class="fas fa-bolt"></i> Tesla Bench</h3>
+                        <div class="station-info">
+                            <h4>Purpose:</h4>
+                            <p>Craft end-game power armor and laser weapons.</p>
+                            <h4>Requirements:</h4>
+                            <ul>
+                                <li>Shaped uranium (10 for Tesla armor)</li>
+                                <li>Advanced electronics</li>
+                                <li>Alloys and rare materials</li>
+                            </ul>
+                            <h4>Unlocks:</h4>
+                            <ul>
+                                <li>Tesla armor (ultimate protection)</li>
+                                <li>Laser SMG (top-tier weapon)</li>
+                                <li>Power equipment</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="station-card">
+                        <h3><i class="fas fa-seedling"></i> Feeder</h3>
+                        <div class="station-info">
+                            <h4>Purpose:</h4>
+                            <p>Automated food source for late-game sustainability.</p>
+                            <h4>Requirements:</h4>
+                            <ul>
+                                <li>Advanced materials</li>
+                                <li>Power source</li>
+                                <li>Electronics</li>
+                            </ul>
+                            <h4>Benefits:</h4>
+                            <ul>
+                                <li>Eliminates need for manual food gathering</li>
+                                <li>Provides consistent nutrition</li>
+                                <li>Frees up time for other activities</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="crafting-section">
+                <h2><i class="fas fa-tools"></i> Tool Progression</h2>
+                <p>Understand the complete tool progression from basic stone tools to advanced equipment.</p>
+                
+                <div class="progression-path">
+                    <div class="progression-tier">
+                        <h3>Tier 1: Stone Tools</h3>
+                        <div class="tier-items">
+                            <div class="item-card stone">
+                                <h4>Stone Pickaxe</h4>
+                                <p>Basic mining tool. Essential for gathering stone and iron ore.</p>
+                                <div class="item-stats">
+                                    <span>Mining Speed: ⭐⭐</span>
+                                    <span>Durability: ⭐⭐</span>
+                                </div>
+                            </div>
+                            <div class="item-card stone">
+                                <h4>Hatchet</h4>
+                                <p>Basic wood gathering tool. Critical for early game resource collection.</p>
+                                <div class="item-stats">
+                                    <span>Wood Gathering: ⭐⭐⭐</span>
+                                    <span>Durability: ⭐⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="progression-tier">
+                        <h3>Tier 2: Metal Tools</h3>
+                        <div class="tier-items">
+                            <div class="item-card metal">
+                                <h4>Metal Axe</h4>
+                                <p>Requires 3x animal drops. Much easier wood gathering and can fight ghouls.</p>
+                                <div class="item-stats">
+                                    <span>Wood Gathering: ⭐⭐⭐⭐</span>
+                                    <span>Combat: ⭐⭐⭐</span>
+                                </div>
+                            </div>
+                            <div class="item-card metal">
+                                <h4>Metal Pickaxe</h4>
+                                <p>Efficient mining tool and decent melee weapon for defense.</p>
+                                <div class="item-stats">
+                                    <span>Mining Speed: ⭐⭐⭐⭐</span>
+                                    <span>Combat: ⭐⭐⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="progression-tier">
+                        <h3>Tier 3: Advanced Tools</h3>
+                        <div class="tier-items">
+                            <div class="item-card advanced">
+                                <h4>Sulfur Pickaxe</h4>
+                                <p>Strongest pickaxe variant with superior mining efficiency.</p>
+                                <div class="item-stats">
+                                    <span>Mining Speed: ⭐⭐⭐⭐⭐</span>
+                                    <span>Durability: ⭐⭐⭐⭐</span>
+                                </div>
+                            </div>
+                            <div class="item-card advanced">
+                                <h4>Advanced Weapons</h4>
+                                <p>Specialized weapons for specific purposes and combat scenarios.</p>
+                                <div class="item-stats">
+                                    <span>Combat: ⭐⭐⭐⭐</span>
+                                    <span>Versatility: ⭐⭐⭐⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="crafting-section">
+                <h2><i class="fas fa-cubes"></i> Essential Materials Guide</h2>
+                <p>Understanding materials and their sources is crucial for efficient crafting.</p>
+                
+                <div class="materials-grid">
+                    <div class="material-category">
+                        <h3><i class="fas fa-mountain"></i> Basic Materials</h3>
+                        <div class="materials-list">
+                            <div class="material-item">
+                                <h4>Wood</h4>
+                                <p><strong>Source:</strong> Trees (use hatchet for efficiency)</p>
+                                <p><strong>Minimum stock:</strong> 200 at all times</p>
+                                <p><strong>Uses:</strong> All basic crafting, fuel, building</p>
+                            </div>
+                            <div class="material-item">
+                                <h4>Stone</h4>
+                                <p><strong>Source:</strong> Rock formations (use pickaxe)</p>
+                                <p><strong>Minimum stock:</strong> 150 at all times</p>
+                                <p><strong>Uses:</strong> Tools, building materials, walls</p>
+                            </div>
+                            <div class="material-item">
+                                <h4>Iron Ore</h4>
+                                <p><strong>Source:</strong> Iron deposits (requires pickaxe)</p>
+                                <p><strong>Processing:</strong> Smelt in smelter to get iron</p>
+                                <p><strong>Uses:</strong> Advanced tools, weapons, alloys</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="material-category">
+                        <h3><i class="fas fa-cog"></i> Advanced Materials</h3>
+                        <div class="materials-list">
+                            <div class="material-item">
+                                <h4>Alloys</h4>
+                                <p><strong>Recipe:</strong> Iron + Coal (in smelter)</p>
+                                <p><strong>Source:</strong> Crafted material</p>
+                                <p><strong>Uses:</strong> Advanced weapons, high-tier equipment</p>
+                            </div>
+                            <div class="material-item">
+                                <h4>Electronics</h4>
+                                <p><strong>Source:</strong> Computers, TVs in buildings</p>
+                                <p><strong>Risk:</strong> Often in dangerous areas</p>
+                                <p><strong>Uses:</strong> Research, Tesla technology, advanced gear</p>
+                            </div>
+                            <div class="material-item">
+                                <h4>Shaped Uranium</h4>
+                                <p><strong>Source:</strong> Advanced crafting processes</p>
+                                <p><strong>Requirement:</strong> 10 for Tesla armor</p>
+                                <p><strong>Uses:</strong> End-game equipment, power armor</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="material-category">
+                        <h3><i class="fas fa-flask"></i> Special Materials</h3>
+                        <div class="materials-list">
+                            <div class="material-item">
+                                <h4>Gasoline</h4>
+                                <p><strong>Recipe:</strong> Rotten oranges + Sulfur</p>
+                                <p><strong>Creative use:</strong> Turn waste into explosives</p>
+                                <p><strong>Uses:</strong> Explosives, advanced weapons</p>
+                            </div>
+                            <div class="material-item">
+                                <h4>Animal Products</h4>
+                                <p><strong>Source:</strong> Hunting animals</p>
+                                <p><strong>Processing:</strong> Cook meat before eating</p>
+                                <p><strong>Uses:</strong> Food, crafting materials</p>
+                            </div>
+                            <div class="material-item">
+                                <h4>Sheet Metal</h4>
+                                <p><strong>Source:</strong> Houses and buildings</p>
+                                <p><strong>Usage:</strong> Advanced building materials</p>
+                                <p><strong>Strategy:</strong> Build bases near multiple houses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="crafting-section">
+                <h2><i class="fas fa-exclamation-triangle"></i> Important Crafting Tips</h2>
+                <div class="crafting-tips">
+                    <div class="tip-card important">
+                        <h3><i class="fas fa-shield-alt"></i> Resource Protection</h3>
+                        <p><strong>Warning:</strong> Anyone can take items from unprotected crafting stations!</p>
+                        <ul>
+                            <li>Guard your crafting stations when in use</li>
+                            <li>Store valuable materials in protected chests</li>
+                            <li>Build in secure, hidden locations when possible</li>
+                            <li>Never leave valuable items unattended</li>
+                        </ul>
+                    </div>
+                    <div class="tip-card important">
+                        <h3><i class="fas fa-clock"></i> Efficient Crafting</h3>
+                        <p><strong>Strategy:</strong> Optimize your crafting workflow for maximum efficiency.</p>
+                        <ul>
+                            <li>Batch craft similar items together</li>
+                            <li>Keep materials organized in nearby chests</li>
+                            <li>Use multiple workbenches for team crafting</li>
+                            <li>Plan your crafting queue in advance</li>
+                        </ul>
+                    </div>
+                    <div class="tip-card important">
+                        <h3><i class="fas fa-balance-scale"></i> Resource Management</h3>
+                        <p><strong>Balance:</strong> Maintain proper resource ratios for continuous progression.</p>
+                        <ul>
+                            <li>Always keep emergency tool materials</li>
+                            <li>Don't waste materials on unnecessary items</li>
+                            <li>Focus on upgrading tools progressively</li>
+                            <li>Save rare materials for high-impact items</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guide-navigation">
+                <a href="base-building.html" class="btn btn-primary">Next: Base Building</a>
+                <a href="survival-tips.html" class="btn btn-secondary">Previous: Survival Tips</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-radiation"></i> Devast.io Guide</h3>
+                    <p>Your ultimate resource for mastering the post-apocalyptic survival game.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="beginners-guide.html">Beginner's Guide</a></li>
+                        <li><a href="tutorials.html">Video Tutorials</a></li>
+                        <li><a href="survival-tips.html">Survival Tips</a></li>
+                        <li><a href="crafting-guide.html">Crafting Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Game Resources</h4>
+                    <ul>
+                        <li><a href="https://devast.io/" target="_blank">Official Game</a></li>
+                        <li><a href="https://devastio.fandom.com/wiki/Devast.io_Wiki" target="_blank">Devast.io Wiki</a></li>
+                        <li><a href="base-building.html">Base Building</a></li>
+                        <li><a href="combat-guide.html">Combat Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <p>This is a fan-made guide website. Devast.io is owned by its respective developers.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Devast.io Survival Guide. Fan-made educational resource.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>

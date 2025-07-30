@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Боевой гайд - Гайд по выживанию в Devast.io</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><i class="fas fa-radiation"></i> Гайд по Devast.io</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="beginners-guide.html">Гайд для новичков</a></li>
+                <li><a href="tutorials.html">Видео уроки</a></li>
+                <li><a href="survival-tips.html">Советы по выживанию</a></li>
+                <li><a href="crafting-guide.html">Гайд по крафту</a></li>
+                <li><a href="base-building.html">Строительство базы</a></li>
+                <li><a href="combat-guide.html" class="active">Боевой гайд</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1><i class="fas fa-sword"></i> Боевой гайд</h1>
+            <p>Освойте PvP бой, прогрессию оружия и стратегии борьбы с гулями</p>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <div class="combat-section">
+                <h2><i class="fas fa-chart-line"></i> Weapon Progression</h2>
+                <p>Understanding weapon progression is crucial for survival. Each tier offers significant improvements in damage and capabilities.</p>
+                
+                <div class="weapon-tiers">
+                    <div class="tier-card">
+                        <div class="tier-header">
+                            <h3>Early Game Weapons</h3>
+                            <span class="tier-badge early">TIER 1</span>
+                        </div>
+                        <div class="weapon-grid">
+                            <div class="weapon-card">
+                                <h4><i class="fas fa-hand-fist"></i> Fists</h4>
+                                <div class="weapon-stats">
+                                    <span>Damage: ⭐</span>
+                                    <span>Range: ⭐</span>
+                                    <span>Speed: ⭐⭐⭐</span>
+                                </div>
+                                <p>Starting weapon. Extremely weak but always available.</p>
+                            </div>
+                            <div class="weapon-card">
+                                <h4><i class="fas fa-hammer"></i> Stone Pickaxe</h4>
+                                <div class="weapon-stats">
+                                    <span>Damage: ⭐⭐</span>
+                                    <span>Range: ⭐⭐</span>
+                                    <span>Speed: ⭐⭐</span>
+                                </div>
+                                <p>Dual-purpose tool and weapon. Essential for early defense.</p>
+                            </div>
+                            <div class="weapon-card">
+                                <h4><i class="fas fa-bow-arrow"></i> Bow</h4>
+                                <div class="weapon-stats">
+                                    <span>Damage: ⭐⭐</span>
+                                    <span>Range: ⭐⭐⭐⭐</span>
+                                    <span>Speed: ⭐⭐</span>
+                                </div>
+                                <p>First ranged weapon. Good for hunting and early PvP.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tier-card">
+                        <div class="tier-header">
+                            <h3>Mid Game Weapons</h3>
+                            <span class="tier-badge mid">TIER 2</span>
+                        </div>
+                        <div class="weapon-grid">
+                            <div class="weapon-card">
+                                <h4><i class="fas fa-axe"></i> Metal Axe</h4>
+                                <div class="weapon-stats">
+                                    <span>Damage: ⭐⭐⭐</span>
+                                    <span>Range: ⭐⭐</span>
+                                    <span>Speed: ⭐⭐⭐</span>
+                                </div>
+                                <p>Requires 3x animal drops. Can effectively fight ghouls.</p>
+                            </div>
+                            <div class="weapon-card">
+                                <h4><i class="fas fa-tools"></i> Metal Pickaxe</h4>
+                                <div class="weapon-stats">
+                                    <span>Damage: ⭐⭐⭐</span>
+                                    <span>Range: ⭐⭐</span>
+                                    <span>Speed: ⭐⭐</span>
+                                </div>
+                                <p>Efficient mining tool and decent melee weapon.</p>
+                            </div>
+                            <div class="weapon-card">
+                                <h4><i class="fas fa-gun"></i> Pistols</h4>
+                                <div class="weapon-stats">
+                                    <span>Damage: ⭐⭐⭐</span>
+                                    <span>Range: ⭐⭐⭐</span>
+                                    <span>Speed: ⭐⭐⭐</span>
+                                </div>
+                                <p>First firearms. Good balance of damage and range.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tier-card">
+                        <div class="tier-header">
+                            <h3>Late Game Weapons</h3>
+                            <span class="tier-badge late">TIER 3</span>
+                        </div>
+                        <div class="weapon-grid">
+                            <div class="weapon-card">
+                                <h4><i class="fas fa-rocket"></i> Assault Rifles</h4>
+                                <div class="weapon-stats">
+                                    <span>Damage: ⭐⭐⭐⭐</span>
+                                    <span>Range: ⭐⭐⭐⭐</span>
+                                    <span>Speed: ⭐⭐⭐⭐</span>
+                                </div>
+                                <p>High damage automatic weapons for serious combat.</p>
+                            </div>
+                            <div class="weapon-card">
+                                <h4><i class="fas fa-crosshairs"></i> Sniper Rifles</h4>
+                                <div class="weapon-stats">
+                                    <span>Damage: ⭐⭐⭐⭐⭐</span>
+                                    <span>Range: ⭐⭐⭐⭐⭐</span>
+                                    <span>Speed: ⭐⭐</span>
+                                </div>
+                                <p>Long-range precision weapons for strategic elimination.</p>
+                            </div>
+                            <div class="weapon-card">
+                                <h4><i class="fas fa-laser"></i> Laser Guns</h4>
+                                <div class="weapon-stats">
+                                    <span>Damage: ⭐⭐⭐⭐</span>
+                                    <span>Range: ⭐⭐⭐⭐</span>
+                                    <span>Speed: ⭐⭐⭐⭐</span>
+                                </div>
+                                <p>Advanced energy weapons with consistent damage.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tier-card">
+                        <div class="tier-header">
+                            <h3>End Game Weapons</h3>
+                            <span class="tier-badge endgame">TIER 4</span>
+                        </div>
+                        <div class="weapon-grid">
+                            <div class="weapon-card legendary">
+                                <h4><i class="fas fa-bolt"></i> Laser SMG</h4>
+                                <div class="weapon-stats">
+                                    <span>Damage: ⭐⭐⭐⭐⭐</span>
+                                    <span>Range: ⭐⭐⭐⭐</span>
+                                    <span>Speed: ⭐⭐⭐⭐⭐</span>
+                                </div>
+                                <p>Ultimate weapon. Combined with Tesla armor makes you nearly invincible.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="combat-section">
+                <h2><i class="fas fa-shield-alt"></i> Protection Progression</h2>
+                <p>Armor is just as important as weapons. Each tier provides significantly better protection against damage.</p>
+                
+                <div class="armor-progression">
+                    <div class="armor-tier">
+                        <h3>Leather Armor</h3>
+                        <div class="armor-info">
+                            <div class="armor-stats">
+                                <span>Protection: ⭐⭐</span>
+                                <span>Mobility: ⭐⭐⭐⭐</span>
+                            </div>
+                            <p>Basic protection against weak attacks and environmental damage.</p>
+                        </div>
+                    </div>
+                    <div class="armor-tier">
+                        <h3>Kevlar Armor</h3>
+                        <div class="armor-info">
+                            <div class="armor-stats">
+                                <span>Protection: ⭐⭐⭐</span>
+                                <span>Mobility: ⭐⭐⭐</span>
+                            </div>
+                            <p>Good protection against bullets and moderate physical damage.</p>
+                        </div>
+                    </div>
+                    <div class="armor-tier">
+                        <h3>Power Armor</h3>
+                        <div class="armor-info">
+                            <div class="armor-stats">
+                                <span>Protection: ⭐⭐⭐⭐</span>
+                                <span>Mobility: ⭐⭐</span>
+                            </div>
+                            <p>Heavy protection against most weapons and environmental hazards.</p>
+                        </div>
+                    </div>
+                    <div class="armor-tier legendary">
+                        <h3>Tesla Armor</h3>
+                        <div class="armor-info">
+                            <div class="armor-stats">
+                                <span>Protection: ⭐⭐⭐⭐⭐</span>
+                                <span>Mobility: ⭐⭐⭐</span>
+                            </div>
+                            <p>Ultimate protection requiring 10 shaped uranium. Near invincibility when combined with laser SMG.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="combat-section">
+                <h2><i class="fas fa-skull"></i> Fighting Ghouls</h2>
+                <p>Ghouls are AI enemies that become increasingly dangerous. Learn to identify and counter each type effectively.</p>
+                
+                <div class="ghoul-types">
+                    <div class="ghoul-card">
+                        <div class="ghoul-header">
+                            <h3>Normal Ghouls</h3>
+                            <span class="threat-level low">LOW THREAT</span>
+                        </div>
+                        <div class="ghoul-info">
+                            <h4>Characteristics:</h4>
+                            <ul>
+                                <li>Weak and slow moving</li>
+                                <li>Start appearing after 2 in-game days</li>
+                                <li>Easy to kill with basic weapons</li>
+                                <li>Attack in small groups</li>
+                            </ul>
+                            <h4>Strategy:</h4>
+                            <p>Use stone pickaxe or metal tools. Keep distance and attack when they approach.</p>
+                        </div>
+                    </div>
+
+                    <div class="ghoul-card">
+                        <div class="ghoul-header">
+                            <h3>Fast Ghouls</h3>
+                            <span class="threat-level medium">MEDIUM THREAT</span>
+                        </div>
+                        <div class="ghoul-info">
+                            <h4>Characteristics:</h4>
+                            <ul>
+                                <li>Faster movement speed</li>
+                                <li>Can quickly close distance</li>
+                                <li>More aggressive behavior</li>
+                                <li>Higher damage output</li>
+                            </ul>
+                            <h4>Strategy:</h4>
+                            <p>Use ranged weapons when possible. Kite them around obstacles and maintain distance.</p>
+                        </div>
+                    </div>
+
+                    <div class="ghoul-card">
+                        <div class="ghoul-header">
+                            <h3>Armored Ghouls</h3>
+                            <span class="threat-level high">HIGH THREAT</span>
+                        </div>
+                        <div class="ghoul-info">
+                            <h4>Characteristics:</h4>
+                            <ul>
+                                <li>Heavily protected with armor</li>
+                                <li>Require good weapons to damage</li>
+                                <li>High health pools</li>
+                                <li>Resistant to weak attacks</li>
+                            </ul>
+                            <h4>Strategy:</h4>
+                            <p>Use firearms or high-tier melee weapons. Focus fire and use teamwork when possible.</p>
+                        </div>
+                    </div>
+
+                    <div class="ghoul-card">
+                        <div class="ghoul-header">
+                            <h3>Explosive Ghouls</h3>
+                            <span class="threat-level extreme">EXTREME THREAT</span>
+                        </div>
+                        <div class="ghoul-info">
+                            <h4>Characteristics:</h4>
+                            <ul>
+                                <li>Detonate on contact with players or structures</li>
+                                <li>Massive damage to both player and base</li>
+                                <li>Can destroy walls and equipment</li>
+                                <li>Often approach in groups</li>
+                            </ul>
+                            <h4>Strategy:</h4>
+                            <p>Use long-range weapons exclusively. Never let them get close. Consider sacrificial walls.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ghoul-defense-tips">
+                    <h3>General Ghoul Defense Tips</h3>
+                    <div class="defense-tips-grid">
+                        <div class="tip-card">
+                            <h4><i class="fas fa-wall-brick"></i> Wall Defense</h4>
+                            <p>Always use stone walls - wood walls are too weak. Repair bots are essential for automated defense.</p>
+                        </div>
+                        <div class="tip-card">
+                            <h4><i class="fas fa-clock"></i> Timing Preparation</h4>
+                            <p>Ghouls start appearing after 2 in-game days. Prepare defenses and weapons beforehand.</p>
+                        </div>
+                        <div class="tip-card">
+                            <h4><i class="fas fa-users"></i> Team Fighting</h4>
+                            <p>Ghouls are much easier to handle with teammates. Coordinate attacks and share resources.</p>
+                        </div>
+                        <div class="tip-card">
+                            <h4><i class="fas fa-route"></i> Escape Routes</h4>
+                            <p>Always have multiple escape routes planned. Don't get cornered by ghoul swarms.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="combat-section">
+                <h2><i class="fas fa-users-sword"></i> PvP Combat Strategies</h2>
+                <p>Player vs Player combat requires different tactics than fighting ghouls. Understand positioning, timing, and psychology.</p>
+                
+                <div class="pvp-strategies">
+                    <div class="strategy-category">
+                        <h3><i class="fas fa-crosshairs"></i> Ranged Combat</h3>
+                        <div class="strategy-content">
+                            <h4>Advantages:</h4>
+                            <ul>
+                                <li>Safe distance from enemy attacks</li>
+                                <li>Better positioning control</li>
+                                <li>Can engage multiple enemies</li>
+                                <li>Effective against melee players</li>
+                            </ul>
+                            <h4>Key Tactics:</h4>
+                            <ul>
+                                <li><strong>Kiting:</strong> Move while shooting to avoid return fire</li>
+                                <li><strong>High ground:</strong> Use elevation for better angles</li>
+                                <li><strong>Cover usage:</strong> Use walls and obstacles for protection</li>
+                                <li><strong>Ammo management:</strong> Don't waste shots on moving targets</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="strategy-category">
+                        <h3><i class="fas fa-sword"></i> Melee Combat</h3>
+                        <div class="strategy-content">
+                            <h4>Advantages:</h4>
+                            <ul>
+                                <li>No ammo requirements</li>
+                                <li>High damage at close range</li>
+                                <li>Always available as backup</li>
+                                <li>Good for ambush tactics</li>
+                            </ul>
+                            <h4>Key Tactics:</h4>
+                            <ul>
+                                <li><strong>Ambush:</strong> Use buildings and terrain for surprise attacks</li>
+                                <li><strong>Circle strafing:</strong> Move around enemy while attacking</li>
+                                <li><strong>Timing:</strong> Attack right after enemy shoots</li>
+                                <li><strong>Retreat:</strong> Know when to disengage and heal</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pvp-tips">
+                    <h3>Advanced PvP Tips</h3>
+                    <div class="pvp-tips-grid">
+                        <div class="pvp-tip">
+                            <h4><i class="fas fa-eye"></i> Information Warfare</h4>
+                            <p>Knowledge is power. Scout enemy bases, learn their routines, and identify weak points before engaging.</p>
+                        </div>
+                        <div class="pvp-tip">
+                            <h4><i class="fas fa-clock"></i> Timing Attacks</h4>
+                            <p>Attack when enemies are distracted, low on resources, or during ghoul waves when they're vulnerable.</p>
+                        </div>
+                        <div class="pvp-tip">
+                            <h4><i class="fas fa-handshake"></i> Psychological Warfare</h4>
+                            <p>Sometimes diplomacy works better than violence. Consider alliances, trades, and negotiations.</p>
+                        </div>
+                        <div class="pvp-tip">
+                            <h4><i class="fas fa-running"></i> Hit and Run</h4>
+                            <p>Don't commit to prolonged fights. Strike quickly, deal damage, and retreat before reinforcements arrive.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="combat-section">
+                <h2><i class="fas fa-chess"></i> Combat Positioning</h2>
+                <p>Positioning is often more important than equipment. Master these positioning concepts for combat advantage.</p>
+                
+                <div class="positioning-concepts">
+                    <div class="concept-card">
+                        <h3><i class="fas fa-mountain"></i> High Ground Advantage</h3>
+                        <div class="concept-info">
+                            <p>Elevated positions provide significant tactical advantages in combat situations.</p>
+                            <h4>Benefits:</h4>
+                            <ul>
+                                <li>Better visibility of approaching enemies</li>
+                                <li>Improved shooting angles</li>
+                                <li>Psychological advantage over opponents</li>
+                                <li>Easier to defend single access points</li>
+                            </ul>
+                            <h4>Application:</h4>
+                            <p>Build watchtowers, use building rooftops, and control hilltops during engagements.</p>
+                        </div>
+                    </div>
+
+                    <div class="concept-card">
+                        <h3><i class="fas fa-shield"></i> Cover Usage</h3>
+                        <div class="concept-info">
+                            <p>Effective use of cover can mean the difference between life and death in firefights.</p>
+                            <h4>Types of Cover:</h4>
+                            <ul>
+                                <li><strong>Hard Cover:</strong> Walls, buildings, rocks (blocks all damage)</li>
+                                <li><strong>Soft Cover:</strong> Trees, bushes (reduces visibility)</li>
+                                <li><strong>Mobile Cover:</strong> Moving between cover points</li>
+                                <li><strong>Created Cover:</strong> Walls you build during combat</li>
+                            </ul>
+                            <h4>Technique:</h4>
+                            <p>Peek out to shoot, immediately return to cover. Never stay exposed longer than necessary.</p>
+                        </div>
+                    </div>
+
+                    <div class="concept-card">
+                        <h3><i class="fas fa-route"></i> Movement Patterns</h3>
+                        <div class="concept-info">
+                            <p>Unpredictable movement makes you harder to hit and gives you tactical flexibility.</p>
+                            <h4>Movement Types:</h4>
+                            <ul>
+                                <li><strong>Strafing:</strong> Side-to-side movement while shooting</li>
+                                <li><strong>Zigzag:</strong> Unpredictable direction changes</li>
+                                <li><strong>Circle Strafing:</strong> Moving in circles around enemy</li>
+                                <li><strong>Jump Shots:</strong> Jumping while shooting (harder to hit)</li>
+                            </ul>
+                            <h4>Key Principle:</h4>
+                            <p>Never move in straight lines or predictable patterns. Always be moving or behind cover.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="combat-section">
+                <h2><i class="fas fa-first-aid"></i> Combat Survival Tips</h2>
+                <div class="survival-tips-grid">
+                    <div class="survival-tip critical">
+                        <h3><i class="fas fa-heart"></i> Health Management</h3>
+                        <ul>
+                            <li>Always carry healing items before engaging in combat</li>
+                            <li>Know your health status at all times</li>
+                            <li>Retreat when health is low - living to fight another day is better</li>
+                            <li>Use food strategically to maintain health during long fights</li>
+                        </ul>
+                    </div>
+                    <div class="survival-tip critical">
+                        <h3><i class="fas fa-boxes"></i> Resource Management</h3>
+                        <ul>
+                            <li>Don't waste valuable ammo on weak targets</li>
+                            <li>Prioritize weapon durability over minor damage</li>
+                            <li>Keep backup weapons in case primary weapon breaks</li>
+                            <li>Know when to save resources vs when to commit them</li>
+                        </ul>
+                    </div>
+                    <div class="survival-tip critical">
+                        <h3><i class="fas fa-brain"></i> Tactical Awareness</h3>
+                        <ul>
+                            <li>Always have an escape route planned before engaging</li>
+                            <li>Be aware of your surroundings and potential third parties</li>
+                            <li>Don't get tunnel vision - watch for flanking attempts</li>
+                            <li>Communication with teammates is essential for survival</li>
+                        </ul>
+                    </div>
+                    <div class="survival-tip critical">
+                        <h3><i class="fas fa-clock"></i> Engagement Timing</h3>
+                        <ul>
+                            <li>Don't fight when you're at a disadvantage</li>
+                            <li>Pick fights you can win or avoid fighting altogether</li>
+                            <li>Consider the risk vs reward of each engagement</li>
+                            <li>Sometimes retreating and regrouping is the best strategy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="combat-section">
+                <h2><i class="fas fa-exclamation-triangle"></i> Common Combat Mistakes</h2>
+                <div class="mistakes-grid">
+                    <div class="mistake-card">
+                        <h3><i class="fas fa-times"></i> Fighting Without Preparation</h3>
+                        <p>Engaging in combat without proper weapons, armor, or healing items leads to quick death.</p>
+                    </div>
+                    <div class="mistake-card">
+                        <h3><i class="fas fa-times"></i> Standing Still While Shooting</h3>
+                        <p>Static targets are easy to hit. Always move while in combat to avoid enemy fire.</p>
+                    </div>
+                    <div class="mistake-card">
+                        <h3><i class="fas fa-times"></i> Chasing Low Health Enemies</h3>
+                        <p>Pursuing fleeing enemies often leads you into traps or away from your safe zone.</p>
+                    </div>
+                    <div class="mistake-card">
+                        <h3><i class="fas fa-times"></i> Fighting Multiple Enemies</h3>
+                        <p>Avoid being outnumbered. Use terrain and tactics to fight enemies one at a time.</p>
+                    </div>
+                    <div class="mistake-card">
+                        <h3><i class="fas fa-times"></i> Ignoring Escape Routes</h3>
+                        <p>Getting cornered with no way out leads to certain death. Always plan your exits.</p>
+                    </div>
+                    <div class="mistake-card">
+                        <h3><i class="fas fa-times"></i> Wasting Ammunition</h3>
+                        <p>Missing shots or shooting at impossible targets wastes valuable resources.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guide-navigation">
+                <a href="index.html" class="btn btn-primary">Back to Home</a>
+                <a href="base-building.html" class="btn btn-secondary">Previous: Base Building</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-radiation"></i> Devast.io Guide</h3>
+                    <p>Your ultimate resource for mastering the post-apocalyptic survival game.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="beginners-guide.html">Beginner's Guide</a></li>
+                        <li><a href="tutorials.html">Video Tutorials</a></li>
+                        <li><a href="survival-tips.html">Survival Tips</a></li>
+                        <li><a href="crafting-guide.html">Crafting Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Game Resources</h4>
+                    <ul>
+                        <li><a href="https://devast.io/" target="_blank">Official Game</a></li>
+                        <li><a href="https://devastio.fandom.com/wiki/Devast.io_Wiki" target="_blank">Devast.io Wiki</a></li>
+                        <li><a href="base-building.html">Base Building</a></li>
+                        <li><a href="combat-guide.html">Combat Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <p>This is a fan-made guide website. Devast.io is owned by its respective developers.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Devast.io Survival Guide. Fan-made educational resource.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
